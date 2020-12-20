@@ -12,7 +12,7 @@ Run `ng serve` to serve the project.
 
 ## Purpose
 
-Assumed that you have bulk set of url string. This util easily seperate url for visiting pages single visits. If you need bulk open all pages, you can use 'Open All' button.
+Assumed that you have bulk set of url string. This util easily seperate url for single visits. If you need bulk open all pages, you can use 'Open All' button.
 
 ## Example
 
