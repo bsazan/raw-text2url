@@ -1,27 +1,40 @@
 # TextToUrl
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.0.5.
+PrimeNg library added for visual components
+
+## Installation
+
+Run `npm install` for installing related dependencies
 
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-## Code scaffolding
+## Serve
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Run `ng serve` to serve the project.
 
-## Build
+## Purpose
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+Assumed that you have bulk set of url string. This util easily seperate url for visiting pages single visits. If you need bulk open all pages, you can use 'Open All' button.
 
-## Running unit tests
+## Example
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Given Url String;
 
-## Running end-to-end tests
+https://www.youtube.com/watch?v=CQAT5qdG8tI https://www.youtube.com/watch?v=MbXWrmQW-OE  https://www.thepolice.com/  https://www.youtube.com/watch?v=QK-Z1K67uaA 
+https://en.wikipedia.org/wiki/The_Police https://www.youtube.com/watch?v=IKKKPNsjlws https://en.wikipedia.org/wiki/COVID-19_pandemic 
+https://en.wikipedia.org/wiki/Workplace_hazard_controls_for_COVID-19
+https://en.wikipedia.org/wiki/Human_population_planning
+https://en.wikipedia.org/wiki/Sterilization_(medicine)
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+Expected Output
 
-## Further help
+![Screenshot](screenshot.png)
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+
+
+
+
