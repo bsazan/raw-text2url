@@ -1,8 +1,3 @@
-# TextToUrl
-
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.0.5.
-PrimeNg library added for visual components
-
 ## Installation
 
 Run `npm install` for installing related dependencies
