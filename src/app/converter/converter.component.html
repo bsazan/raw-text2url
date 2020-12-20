@@ -1,0 +1,23 @@
+<p-panel >
+    <p-header>
+        <h1>Welcome aboard..</h1>
+        <h5>Insert your raw plain text below which contains HTTP(s) pattern</h5>
+    </p-header>
+    <div class="col-xs-8">
+        <textarea [(ngModel)]="plainTextOfUser" (ngModelChange)="inputChange($event)" [rows]="10" [cols]="220" pInputTextarea [autoResize]="false"></textarea>
+    </div>
+    <p-footer>
+        <button [disabled]="isConvertButtonDisabled" pButton type="button" label="Text to URL" (click)="convert()"></button>                  
+        <button [disabled]="isOpenAllButtonDisabled" label="Open All" class="p-button-success"  pButton type="button" (click)="openAll()"></button>        
+        <button class="p-button-warning"  pButton type="button" label="Clear" (click)="clear()"></button>  
+    </p-footer>
+    <p-fieldset *ngIf="fieldsetCreated" legend="Full Url Set">
+        <p-table [value]="convertedUrlSet">
+            <ng-template pTemplate="body" let-url>
+                <tr>
+                    <td><a href="{{url}}" target="_blank">{{url}}</a></td>                    
+                </tr>
+            </ng-template>
+        </p-table>
+    </p-fieldset>
+</p-panel>
